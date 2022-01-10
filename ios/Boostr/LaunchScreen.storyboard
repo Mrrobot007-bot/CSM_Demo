@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_screen_1x" translatesAutoresizingMaskIntoConstraints="NO" id="usz-yg-zMU">
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="usz-yg-zMU" firstAttribute="trailing" secondItem="Bcu-3y-fUS" secondAttribute="trailing" id="0dL-xq-0DK"/>
+                            <constraint firstItem="usz-yg-zMU" firstAttribute="trailing" secondItem="Bcu-3y-fUS" secondAttribute="trailing" id="4et-on-byT"/>
+                            <constraint firstItem="usz-yg-zMU" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="4hb-aN-75V"/>
+                            <constraint firstAttribute="bottom" secondItem="usz-yg-zMU" secondAttribute="bottom" id="8MP-GW-6Ru"/>
+                            <constraint firstItem="usz-yg-zMU" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="9KZ-tv-aAi"/>
+                            <constraint firstAttribute="trailing" secondItem="usz-yg-zMU" secondAttribute="trailing" id="AhW-ng-E1T"/>
+                            <constraint firstAttribute="trailing" secondItem="usz-yg-zMU" secondAttribute="trailing" id="BQj-xd-p5k"/>
+                            <constraint firstItem="usz-yg-zMU" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="BVr-IM-Gfd"/>
+                            <constraint firstItem="usz-yg-zMU" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="DGc-kv-ZQO"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="usz-yg-zMU" secondAttribute="bottom" id="Fpk-ad-UQl"/>
+                            <constraint firstItem="usz-yg-zMU" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="GWK-ea-OoD"/>
+                            <constraint firstItem="usz-yg-zMU" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="GsJ-Nt-8mY"/>
+                            <constraint firstItem="usz-yg-zMU" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="ITd-1b-GEu"/>
+                            <constraint firstItem="usz-yg-zMU" firstAttribute="trailing" secondItem="Bcu-3y-fUS" secondAttribute="trailing" id="Qm7-Ha-DDz"/>
+                            <constraint firstItem="usz-yg-zMU" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="WJQ-b0-HRK"/>
+                            <constraint firstItem="usz-yg-zMU" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="YCP-FM-9QR"/>
+                            <constraint firstItem="usz-yg-zMU" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="e3j-Hn-ugi"/>
+                            <constraint firstAttribute="trailing" secondItem="usz-yg-zMU" secondAttribute="trailing" id="ff6-vz-pca"/>
+                            <constraint firstItem="usz-yg-zMU" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="gg7-td-D5K"/>
+                            <constraint firstItem="Bcu-3y-fUS" firstAttribute="bottom" secondItem="usz-yg-zMU" secondAttribute="bottom" id="glS-Hs-afy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="usz-yg-zMU" secondAttribute="trailing" id="kTJ-ro-tt9"/>
+                            <constraint firstItem="usz-yg-zMU" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="lzU-vS-yKA"/>
+                            <constraint firstAttribute="trailing" secondItem="usz-yg-zMU" secondAttribute="trailing" id="ms8-lY-Ffh"/>
+                            <constraint firstItem="usz-yg-zMU" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="qme-2q-Vra"/>
+                            <constraint firstAttribute="bottom" secondItem="usz-yg-zMU" secondAttribute="bottom" id="wAJ-gJ-dyC"/>
+                            <constraint firstItem="usz-yg-zMU" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="wv5-m6-L0p"/>
+                            <constraint firstAttribute="trailing" secondItem="usz-yg-zMU" secondAttribute="trailing" id="wyp-to-3lx"/>
+                            <constraint firstItem="usz-yg-zMU" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="xU2-YZ-2tr"/>
+                            <constraint firstAttribute="bottom" secondItem="usz-yg-zMU" secondAttribute="bottom" id="yC0-1u-UnI"/>
+                            <constraint firstItem="usz-yg-zMU" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="yHD-fW-GHP"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="46.153846153846153" y="369.66824644549763"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launch_screen_1x" width="414" height="736"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "604043318917",
+    "project_id": "boostr-9e4a3",
+    "storage_bucket": "boostr-9e4a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604043318917:android:c092923f94b4f9d362fbec",
+        "android_client_info": {
+          "package_name": "com.boostr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604043318917-7phebgrls0lhvbq8uc2g5tv73bpjm4a2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.boostr",
+            "certificate_hash": "b405bd2ba5349c9e7781c0975f0c4d14c91fc578"
+          }
+        },
+        {
+          "client_id": "604043318917-n69r2j7c0c05f5us04dbh6b942m66htj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.boostr",
+            "certificate_hash": "0fb9a8b9bb5d1cdf9b8c4e6837ad1191cf985306"
+          }
+        },
+        {
+          "client_id": "604043318917-5q5vieov489rs68ng6r7epj55o1ubvha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8_WAAcr6SBGiJnevg5K4_kxzSa-j2ROo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604043318917-5q5vieov489rs68ng6r7epj55o1ubvha.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "604043318917-v1s40okvnhfmifok76plo25g33fnse7o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.Boostrrr"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
